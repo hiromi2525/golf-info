@@ -1,5 +1,9 @@
 <template>
-    <h1>Golf Facilty</h1>
-    <div>Login Page</div>
-    <router-link to="/">Top画面に戻る</router-link>
+  <h1>Golf Facilty</h1>
+  <div>Login Page</div>
+  ニックネーム<br />
+  <input class="textFormTitleArea" type="text" id="name" /> <br />
+  パスワード<br />
+  <input class="textFormTitleArea" type="text" id="password" /><br />
+  <router-link to="/">Top画面に戻る</router-link>
 </template>
